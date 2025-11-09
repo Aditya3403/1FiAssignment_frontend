@@ -20,7 +20,9 @@ export default function ProductDetails() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/products/${slug}`);
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/products/${slug}`,{
+          cache: "no-store"
+      });
         const data = await res.json();
         setProduct(data);
 

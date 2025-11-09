@@ -2,7 +2,7 @@
 A modern e-commerce UI built with **Next.js, Tailwind CSS, Zustand** and fully responsive across all devices.
 
 ## 🚀 Live Demo
-Frontend: [https://your-frontend-url.vercel.app ](https://1-fi-assignment-frontend.vercel.app/) 
+Frontend: [link](https://1-fi-assignment-frontend.vercel.app/) 
 
 ---
 
@@ -10,9 +10,7 @@ Frontend: [https://your-frontend-url.vercel.app ](https://1-fi-assignment-fronte
 ✅ Product listing page  
 ✅ Product details page  
 ✅ Filters → Brand, Color, Sorting  
-✅ Theme Toggle (Light/Dark) using Zustand + LocalStorage  
-✅ Responsive UI for all screen sizes  
-✅ EMI plans with popup modal  
+✅ Responsive UI for all screen sizes   
 ✅ Fully deployed on Vercel
 
 ---
@@ -22,9 +20,6 @@ Frontend: [https://your-frontend-url.vercel.app ](https://1-fi-assignment-fronte
 |------|---------|
 | Next.js (App Router) | Frontend Framework |
 | Tailwind CSS | Styling |
-| Zustand | Global State (theme) |
-| Framer Motion | Loader Animation |
-| Fetch API | Communication with backend |
 | Vercel | Deployment |
 
 ---

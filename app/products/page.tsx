@@ -82,8 +82,8 @@ export default function ProductsPage() {
               </button>
 
               {showBrand && (
-                <div className="absolute z-10 mt-2 w-40 bg-white dark:bg-[#1c1c1c] shadow-lg rounded-md border p-2">
-                  {["Apple", "Samsung", "OnePlus"].map((b) => (
+                <div className="absolute z-10 mt-2 w-40 bg-white dark:bg-[#1c1c1c] shadow-lg rounded-sm p-2">
+                  {["Apple", "Samsung", "OnePlus", "Google"].map((b) => (
                     <label key={b} className="flex items-center gap-2 py-1 text-xs sm:text-sm cursor-pointer">
                       <input
                         type="checkbox"
@@ -107,7 +107,7 @@ export default function ProductsPage() {
               </button>
 
               {showColor && (
-                <div className="absolute z-10 mt-2 w-40 bg-white dark:bg-[#1c1c1c] shadow-lg rounded-md border p-2">
+                <div className="absolute z-10 mt-2 w-40 bg-white dark:bg-[#1c1c1c] shadow-lg rounded-sm p-2">
                   {["Orange", "Blue", "White", "Titanium"].map((c) => (
                     <label key={c} className="flex items-center gap-2 py-1 text-xs sm:text-sm cursor-pointer">
                       <input
@@ -133,17 +133,14 @@ export default function ProductsPage() {
             </button>
 
             {showSort && (
-              <div className="absolute right-0 z-10 mt-2 w-48 bg-white dark:bg-[#1c1c1c] shadow-lg rounded-md border p-2 text-xs sm:text-sm">
-                <p className="py-1 cursor-pointer hover:underline" onClick={() => setSortOption("")}>
-                  Relevancy
+              <div className="absolute right-0 z-10 mt-2 w-48 bg-white dark:bg-[#1c1c1c] shadow-lg rounded-sm p-2 text-xs sm:text-sm">
+                <p className="py-1 cursor-pointer hover:bg-gray-100 p-2 rounded" onClick={() => setSortOption("low-high")}>
+                  Price: Low to High
                 </p>
-                <p className="py-1 cursor-pointer hover:underline" onClick={() => setSortOption("low-high")}>
-                  Price: Low → High
+                <p className="py-1 cursor-pointer hover:bg-gray-100 p-2 rounded" onClick={() => setSortOption("high-low")}>
+                  Price: High to Low
                 </p>
-                <p className="py-1 cursor-pointer hover:underline" onClick={() => setSortOption("high-low")}>
-                  Price: High → Low
-                </p>
-                <p className="py-1 cursor-pointer hover:underline" onClick={() => setSortOption("rating")}>
+                <p className="py-1 cursor-pointer hover:bg-gray-100 p-2 rounded" onClick={() => setSortOption("rating")}>
                   Rating
                 </p>
               </div>

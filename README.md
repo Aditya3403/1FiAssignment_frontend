@@ -18,7 +18,7 @@ Frontend: [link](https://1-fi-assignment-frontend.vercel.app/)
 ## 🛠 Tech Stack
 | Tech | Purpose |
 |------|---------|
-| Next.js (App Router) | Frontend Framework |
+| Next.js| Frontend Framework |
 | Tailwind CSS | Styling |
 | Vercel | Frontend Deployment |
 | Node.js | Backend |

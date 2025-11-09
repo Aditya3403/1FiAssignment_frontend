@@ -20,7 +20,11 @@ Frontend: [link](https://1-fi-assignment-frontend.vercel.app/)
 |------|---------|
 | Next.js (App Router) | Frontend Framework |
 | Tailwind CSS | Styling |
-| Vercel | Deployment |
+| Vercel | Frontend Deployment |
+| Node.js | Backend |
+| Express.js | Backend |
+| MongoDB | Database |
+| Render | Backend Deployment |
 
 ---
 
